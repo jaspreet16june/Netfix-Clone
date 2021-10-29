@@ -1,3 +1,6 @@
+.row h2{
+  text-align: center;
+}
 .row_posters {
   display: flex;
   overflow-y: hidden;
@@ -16,4 +19,10 @@
 }
 .row_poster:hover {
   transform: scale(1.08);
+}
+.row_largePoster{
+  height: 250px;
+}
+.row_largePoster:hover {
+  transform: scale(1.09);
 }
