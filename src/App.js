@@ -1,12 +1,13 @@
 import requests from "./request";
 import Row from "./row";
-
+import Banner from "./Banner"
+import "./css/app.css"
 let App = ()=> {
   return (
     
     <div className = "App">
 
-    <h1>This is Netflix clone Made By Jaspreet Kaur and my friend</h1>
+    <Banner />
     <Row title = "Netflix Originals" 
          fetchURL= {requests.fetchNetflixOriginals}
          isLargeRow/>
