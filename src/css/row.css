@@ -1,4 +1,6 @@
-
+.row{
+  color:aliceblue
+}
 .row_posters {
   display: flex;
   overflow-y: hidden;
