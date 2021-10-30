@@ -1,12 +1,13 @@
 import requests from "./request";
 import Row from "./row";
-import Banner from "./Banner"
+import Banner from "./Banner";
+import Nav from "./Nav";
 import "./css/app.css"
 let App = ()=> {
   return (
     
     <div className = "App">
-
+    <Nav />
     <Banner />
     <Row title = "Netflix Originals" 
          fetchURL= {requests.fetchNetflixOriginals}

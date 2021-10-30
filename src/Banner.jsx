@@ -46,8 +46,7 @@ function truncate(str, n) {
           {/* description */}
           <h1 className="bannerOverview">{truncate(movie?.overview, 150)}</h1>
         </div>
-
-    <div className="bannerFadeBottom"></div>
+        <div className="bannerFadeBottom"></div>
       </header>
     );
 }
